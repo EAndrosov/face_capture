@@ -2,7 +2,7 @@ import cv2
 
 
 def face_capture():
-    cascade_path = 'path_to_haarcascade.xml'
+    cascade_path = 'filter\haarcascade_frontalface_default.xml'
     
     clf = cv2.CascadeClassifier(cascade_path)
     camera = cv2.VideoCapture('somevideo.mp4')
